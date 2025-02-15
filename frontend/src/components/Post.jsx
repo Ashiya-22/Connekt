@@ -255,7 +255,7 @@ const Post = ({ post }) => {
               disabled={isAddingComment}
             >
               {isAddingComment ? (
-                <Loader size={18} className="animate-spin" />
+                <Loader size={18} className="mr-1 animate-spin" />
               ) : (
                 <Send size={18} className="mr-1" />
               )}
