@@ -109,7 +109,7 @@ const Post = ({ post }) => {
     <div className="bg-base-100 rounded-lg shadow mb-4 border border-base-200">
       {isOpen && (
         <ShareButton
-          url={`http://localhost:5173/post/${post._id}`}
+          url={`https://connekt-v1-0.onrender.com/post/${post._id}`}
           setIsOpen={setIsOpen}
         />
       )}
