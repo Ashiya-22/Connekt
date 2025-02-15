@@ -1,7 +1,7 @@
 import { Search, UserSearch, Feather } from "lucide-react";
 import { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
-import SearchBarSkeletton from "../skeletons/SearchbarSkeletons";
+import SearchBarSkeletton from "../skeletons/SearchBarSkeletons";
 import { useState, useCallback } from "react";
 import avatar_image from "../assets/avatar.png";
 import { useQuery } from "@tanstack/react-query";
